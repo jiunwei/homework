@@ -1,0 +1,22 @@
+.Counter {
+	background: white;
+  border: 2px inset white;
+  font-size: 0.8em;
+  margin: 1em;
+	padding: 10px;
+  text-align: center;
+}
+
+.Counter > p {
+  margin: 0;
+}
+
+.Counter-Count {
+  font-weight: bold;
+}
+
+.Counter-Unit {
+  color: gray;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}

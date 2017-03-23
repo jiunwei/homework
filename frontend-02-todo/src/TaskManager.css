@@ -1,0 +1,27 @@
+.TaskManager {
+	background: silver;
+	padding: 1em;
+	position: relative;
+}
+
+.TaskManager-EntryBar {
+  float: left;
+}
+
+.TaskManager-Counter {
+	float: right;
+}
+
+
+.TaskManager-Counter > h1 {
+  font-size: 1em;
+  margin: 0;
+  margin-bottom: -0.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.TaskManager-Items {
+  clear: both;
+	display: flex;
+}

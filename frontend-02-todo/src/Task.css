@@ -1,0 +1,10 @@
+.Task {
+	background: white;
+  border-bottom: 1px solid silver;
+  border-top: 1px solid silver;
+	padding: 1.2em 1em;
+}
+
+.Task-Ghost {
+  opacity: 0.5;
+}

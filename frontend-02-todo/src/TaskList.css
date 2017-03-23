@@ -1,0 +1,34 @@
+.TaskList {
+	flex: 1;
+  margin: 0 0.5em;
+	position: relative;
+}
+
+.TaskList > h1 {
+  background: gray;
+  color: white;
+  margin: 0;
+  font-size: 1.25em;
+  padding: 1.3em 0.8em;
+}
+
+.TaskList-Counter {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.TaskList-Items {
+  margin: 0;
+  padding: 0;
+}
+
+.TaskList-Items > li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.TaskList-Buffer {
+  height: 4em;
+}

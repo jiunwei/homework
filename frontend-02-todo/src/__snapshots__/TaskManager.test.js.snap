@@ -1,0 +1,315 @@
+exports[`TaskManager renders a set of empty tasks correctly 1`] = `
+<div
+  className="TaskManager">
+  <div
+    className="TaskManager-EntryBar">
+    <form
+      className="EntryBar"
+      onSubmit={[Function]}>
+      <span
+        className="EntryBar-Prompt">
+        add project
+      </span>
+      <input
+        onChange={[Function]}
+        type="text"
+        value="" />
+    </form>
+  </div>
+  <div
+    className="TaskManager-Counter">
+    <h1>
+      Total
+    </h1>
+    <div
+      className="Counter">
+      <p
+        className="Counter-Count">
+        0
+      </p>
+      <p
+        className="Counter-Unit">
+        Projects
+      </p>
+    </div>
+  </div>
+  <div
+    className="TaskManager-Items">
+    <div
+      className="TaskList">
+      <h1>
+        To do
+      </h1>
+      <div
+        className="TaskList-Counter">
+        <div
+          className="Counter">
+          <p
+            className="Counter-Count">
+            0
+          </p>
+          <p
+            className="Counter-Unit">
+            Projects
+          </p>
+        </div>
+      </div>
+      <ol
+        className="TaskList-Items">
+        <li
+          className="TaskList-Buffer">
+           
+        </li>
+      </ol>
+    </div>
+    <div
+      className="TaskList">
+      <h1>
+        In Progress
+      </h1>
+      <div
+        className="TaskList-Counter">
+        <div
+          className="Counter">
+          <p
+            className="Counter-Count">
+            0
+          </p>
+          <p
+            className="Counter-Unit">
+            Projects
+          </p>
+        </div>
+      </div>
+      <ol
+        className="TaskList-Items">
+        <li
+          className="TaskList-Buffer">
+           
+        </li>
+      </ol>
+    </div>
+    <div
+      className="TaskList">
+      <h1>
+        Done
+      </h1>
+      <div
+        className="TaskList-Counter">
+        <div
+          className="Counter">
+          <p
+            className="Counter-Count">
+            0
+          </p>
+          <p
+            className="Counter-Unit">
+            Projects
+          </p>
+        </div>
+      </div>
+      <ol
+        className="TaskList-Items">
+        <li
+          className="TaskList-Buffer">
+           
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TaskManager renders a set of sample tasks correctly 1`] = `
+<div
+  className="TaskManager">
+  <div
+    className="TaskManager-EntryBar">
+    <form
+      className="EntryBar"
+      onSubmit={[Function]}>
+      <span
+        className="EntryBar-Prompt">
+        add project
+      </span>
+      <input
+        onChange={[Function]}
+        type="text"
+        value="" />
+    </form>
+  </div>
+  <div
+    className="TaskManager-Counter">
+    <h1>
+      Total
+    </h1>
+    <div
+      className="Counter">
+      <p
+        className="Counter-Count">
+        12
+      </p>
+      <p
+        className="Counter-Unit">
+        Projects
+      </p>
+    </div>
+  </div>
+  <div
+    className="TaskManager-Items">
+    <div
+      className="TaskList">
+      <h1>
+        To do
+      </h1>
+      <div
+        className="TaskList-Counter">
+        <div
+          className="Counter">
+          <p
+            className="Counter-Count">
+            4
+          </p>
+          <p
+            className="Counter-Unit">
+            Projects
+          </p>
+        </div>
+      </div>
+      <ol
+        className="TaskList-Items">
+        <li>
+          <div
+            className="Task">
+            Project 1
+          </div>
+        </li>
+        <li>
+          <div
+            className="Task">
+            Project 2
+          </div>
+        </li>
+        <li>
+          <div
+            className="Task">
+            Project 3
+          </div>
+        </li>
+        <li>
+          <div
+            className="Task">
+            Project 4
+          </div>
+        </li>
+        <li
+          className="TaskList-Buffer">
+           
+        </li>
+      </ol>
+    </div>
+    <div
+      className="TaskList">
+      <h1>
+        In Progress
+      </h1>
+      <div
+        className="TaskList-Counter">
+        <div
+          className="Counter">
+          <p
+            className="Counter-Count">
+            3
+          </p>
+          <p
+            className="Counter-Unit">
+            Projects
+          </p>
+        </div>
+      </div>
+      <ol
+        className="TaskList-Items">
+        <li>
+          <div
+            className="Task">
+            Project 5
+          </div>
+        </li>
+        <li>
+          <div
+            className="Task">
+            Project 6
+          </div>
+        </li>
+        <li>
+          <div
+            className="Task">
+            Project 7
+          </div>
+        </li>
+        <li
+          className="TaskList-Buffer">
+           
+        </li>
+      </ol>
+    </div>
+    <div
+      className="TaskList">
+      <h1>
+        Done
+      </h1>
+      <div
+        className="TaskList-Counter">
+        <div
+          className="Counter">
+          <p
+            className="Counter-Count">
+            5
+          </p>
+          <p
+            className="Counter-Unit">
+            Projects
+          </p>
+        </div>
+      </div>
+      <ol
+        className="TaskList-Items">
+        <li>
+          <div
+            className="Task">
+            Project 8
+          </div>
+        </li>
+        <li>
+          <div
+            className="Task">
+            Project 9
+          </div>
+        </li>
+        <li>
+          <div
+            className="Task">
+            Project 10
+          </div>
+        </li>
+        <li>
+          <div
+            className="Task">
+            Project 11
+          </div>
+        </li>
+        <li>
+          <div
+            className="Task">
+            Project 12
+          </div>
+        </li>
+        <li
+          className="TaskList-Buffer">
+           
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+`;
